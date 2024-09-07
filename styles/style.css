@@ -1,0 +1,15 @@
+html {
+    background-color: #f4ccccea;
+
+    /* #efc1c1ff = the top |  #f4ccccea = background |  #c27ba0ff = the dark pink
+    #d5a6bdff = where to subscribe on the bottom*/
+}
+
+.header {
+    border: 1px solid;
+}
+
+.largeText {
+    text-align: center;
+}
+
