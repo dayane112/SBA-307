@@ -20,6 +20,13 @@ html {
     /* text-align: center; */
     padding-top: 7px;
     color: #c27ba0ff;
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.largeText:hover {
+    color: #955275;
+    font-size: 70px;
 }
 
 .navBar {
@@ -72,3 +79,27 @@ html {
 
 /*  above needs to be in all css style sheet */
 /* ------------------------------------------------------------------------ */
+
+/* About me */
+#gifSize {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-left: 35%;
+    margin-right: 35%; */
+    
+
+}
+
+.currentRead {
+    text-align: center;
+    padding-top: 40px;
+    color: #c27ba0ff;
+    margin-bottom: 0%;
+}
+
+.textStyle {
+    /* font-family: Arial; */
+    font-weight: lighter;
+    margin: 5% 10% 5% 10%;
+}
