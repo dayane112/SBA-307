@@ -1,5 +1,5 @@
 html {
-    /* background-color: #f4ccccea; */
+    background-color: #f4ccccea;
 
     /* #efc1c1ff = the top |  #f4ccccea = background |  #c27ba0ff = the dark pink
     #d5a6bdff = where to subscribe on the bottom*/
@@ -41,43 +41,4 @@ html {
 }
 
 /*  above needs to be in all css style sheet */
-/* ------------------------------------------------------------------------ */
-
-/* center text */
-.currentRead {
-    text-align: center;
-    padding-top: 40px;
-}
-/* ------------------------------------------------------------------------ */
-
-/* currently reading info */
-.table1 {
-    border: .1px solid;
-    margin: 10%;
-}
-
-#indexImg {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    padding: 0px 15px 0px 0px;
-    /* width: 25%; */
-}
-#indexPara {
-    /* display: flex;
-    flex-wrap: wrap;
-    width: 70%; */
-}
-
-
-
-/* ------------------------------------------------------------------------ */
-
-/* carousel */
-.size {
-    padding-top: 20px;
-    width: 30%;
-    margin-left: 35%;
-}
-
-/* $carousel-control-icon-width: 2rem; */
 /* ------------------------------------------------------------------------ */
