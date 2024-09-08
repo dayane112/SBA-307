@@ -23,7 +23,17 @@
     <div class="navBar">
         <img src="" alt="">
         <a href="../index.html" class="navText">Home </a>
-        <a href="./books.html" class="navText">Books</a>
+        <!-- dropdown -->
+        <div class="dropdown">
+            <button class=" navText btn dropdown-item-text dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                Books
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button"><a href="../html/books.html" class="navText">All Books</a></button></li>
+              <li><button class="dropdown-item navText" type="button">By Series</button></li>
+            </ul>
+        </div>
+        <!-- dropdown done -->
         <a href="./TBR.html" class="navText">TBR</a>
         <a href="./Reviews.html" class="navText">Review</a>
         <a href="./aboutMe.html" class="navText">About Me</a>
@@ -31,7 +41,33 @@
 
     <!-- Above this line needs to be in all HTML -->
     <!-- ---------------------------------------------------------------------------- -->
-
+    <div>
+        
+    </div>
    
+
+
+
+
+
+
+    <!-- ---------------------------------------------------------------------------- -->
+    <!-- Footer info for all HTML -->
+    <form class="row g-3 bottomBack">
+        <div>
+        <p id="subscribe">Subscribe for update</p>
+        </div>
+        <!-- <div class="col-auto centerText">
+        <label for="staticEmail2" class="visually-hidden">Email</label>
+        <input type="text" readonly class="form-control-plaintext" id="staticEmail2">
+        </div> -->
+        <div class="col-auto centerText marSpa">
+        <!-- <label for="inputPassword2" class="visually-hidden">Email</label> -->
+        <input type="email" class="form-control" id="inputPassword2" placeholder="Enter Email">
+        </div>
+        <div id="subscribe2" class="col-auto marSpa">
+        <button id="buttonColor" type="submit" class="btn btn-primary mb-3">Subscribe</button>
+        </div>
+  </form>
 </body>
 </html>

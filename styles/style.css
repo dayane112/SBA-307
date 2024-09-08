@@ -19,7 +19,7 @@ html {
     align-items: center;
     /* text-align: center; */
     padding-top: 7px;
-    color: white;
+    color: #c27ba0ff;
 }
 
 .navBar {
@@ -36,10 +36,39 @@ html {
 }
 
 .navText {
-    color: white;
+    color: #f4ccccea;
     text-decoration: none;
 }
 
+
+#subscribe {
+    text-align: center;
+    font-weight: bold;
+    padding: 0%;
+    color: #c27ba0ff;
+}
+
+.centerText{
+    margin-left: 35%;
+}
+
+.marSpa {
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 10;
+}
+
+#subscribe2 {
+    margin-left: 2%;
+}
+
+.bottomBack {
+    border: 1px solid;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #f4ccccea;
+}
 /*  above needs to be in all css style sheet */
 /* ------------------------------------------------------------------------ */
 
@@ -47,13 +76,28 @@ html {
 .currentRead {
     text-align: center;
     padding-top: 40px;
+    color: #c27ba0ff;
 }
+
+.textStyle {
+    /* font-family: Arial; */
+    font-weight: lighter;
+}
+
+#buttonColor {
+    color: #c27ba0ff;
+}
+
+.button {
+    background-color: rgb(170, 63, 119);;
+}
+
 /* ------------------------------------------------------------------------ */
 
 /* currently reading info */
 .table1 {
     border: .1px solid;
-    margin: 10%;
+    margin: 10% 10% 0% 10%;
 }
 
 #indexImg {
@@ -61,23 +105,68 @@ html {
     /* flex-wrap: wrap; */
     padding: 0px 15px 0px 0px;
     /* width: 25%; */
+
 }
+
 #indexPara {
     /* display: flex;
     flex-wrap: wrap;
     width: 70%; */
 }
 
+/* #textBox1 {
+    border: 1px solid;
+}
 
+#textBox2 {
+    border: 1px solid;
+}
+.container1 {
+    overflow-x: hidden;
+}
+
+.readMore {
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+button {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    border: none;
+    background-color: transparent;
+    font-weight: bolder;
+}
+
+button::after {
+    position: absolute;
+    content: "";
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    height: 80px;
+    background: linear-gradient(180deg #ffffffa1, #fff, #fff);
+} */
 
 /* ------------------------------------------------------------------------ */
 
 /* carousel */
 .size {
     padding-top: 20px;
+    padding-bottom: 20px;
     width: 30%;
     margin-left: 35%;
 }
 
 /* $carousel-control-icon-width: 2rem; */
 /* ------------------------------------------------------------------------ */
+
+/* Goodread review */
+#goodRead {
+    border: 1px solid;
+    margin: 0% 10% 10% 10%;
+    padding-top: 20px;
+}
