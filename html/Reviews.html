@@ -23,7 +23,8 @@
     <div class="navBar">
         <img src="" alt="">
         <a href="../index.html" class="navText">Home </a>
-        <!-- dropdown -->
+
+        <!-- dropdown start -->
         <div class="dropdown">
             <button class=" navText btn dropdown-item-text dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false" >
                 Books
@@ -33,7 +34,8 @@
               <li><button class="dropdown-item navText" type="button">By Series</button></li>
             </ul>
         </div>
-        <!-- dropdown done -->
+        <!-- dropdown end -->
+
         <a href="./TBR.html" class="navText">TBR</a>
         <a href="./Reviews.html" class="navText">Review</a>
         <a href="./aboutMe.html" class="navText">About Me</a>
@@ -46,9 +48,10 @@
    <div id="box">
     <img src="../images/ACOTAR.jpg" alt="A court of Throne and Roses" width="400px">
    </div>
-   <div id="hiddenB">
-        <h2 id="title1">Review of A Court of Throne and Roses</h2>
-        <p>
+
+   <div id="hiddenB" class="textBox3">
+        <h2 id="title1" style="font-family: Pacifico;">Review of A Court of Throne and Roses</h2>
+        <p class="textUnder">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eius praesentium fuga mollitia ab? Quidem harum animi, placeat quas voluptatem error non? Eaque quos laudantium ipsam inventore laborum, eligendi iure facere aliquam! Earum odit atque reiciendis magnam aperiam similique alias eligendi laboriosam eius animi quia veniam quam libero exercitationem enim, tempora fugiat omnis. Ea facere fuga, eius praesentium deserunt non.
         </p>
    </div>
@@ -57,40 +60,49 @@
    <div id="box2">
     <img src="../images/Fourth Wing.JPG" alt="A court of Throne and Roses" width="400px">
    </div>
-   <div id="hiddenB2">
-        <h2 id="title2">Review of Fourth Wing</h2>
-        <p>
+   <div id="hiddenB2" class="textBox3">
+        <h2 id="title2" style="font-family: Pacifico;">Review of Fourth Wing</h2>
+        <p class="textUnder">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eius praesentium fuga mollitia ab? Quidem harum animi, placeat quas voluptatem error non? Eaque quos laudantium ipsam inventore laborum, eligendi iure facere aliquam! Earum odit atque reiciendis magnam aperiam similique alias eligendi laboriosam eius animi quia veniam quam libero exercitationem enim, tempora fugiat omnis. Ea facere fuga, eius praesentium deserunt non.
         </p>
    </div>
+
+       <!-- review 3 -->
+       <div id="box3">
+        <img src="../images/bride.jpeg" alt="A court of Throne and Roses" width="400px">
+       </div>
+       <div id="hiddenB3" class="textBox3">
+            <h2 id="title3" style="font-family: Pacifico;">Review of Bride</h2>
+            <p class="textUnder">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eius praesentium fuga mollitia ab? Quidem harum animi, placeat quas voluptatem error non? Eaque quos laudantium ipsam inventore laborum, eligendi iure facere aliquam! Earum odit atque reiciendis magnam aperiam similique alias eligendi laboriosam eius animi quia veniam quam libero exercitationem enim, tempora fugiat omnis. Ea facere fuga, eius praesentium deserunt non.
+            </p>
+       </div>
     
-   <!-- comments -->
-    <form class="commentSection">
-        <label>Name</label><br>
-        <input type="text" placeholder="Enter Name"><br>
-        <label>Comment</label><br>
-        <input id="commentBox" type="text" placeholder="Comment"><br><br>
-        <input id="subButton" type="submit" value="Submit">
-    </form> 
-  
+    <br><br>
+   <!-- ________comments____________ -->
+    <fieldset>
+        <form class="commentSection">
+            <legend>Comment </legend> 
+            <label>Name</label><br>
+            <input type="text" placeholder="Enter Name"><br>
+            <label>Comment</label><br>
+            <input id="commentBox" type="text" placeholder="Comment"><br><br>
+            <input id="subButton" type="submit" value="Submit">
+        </form> 
+    </fieldset>
 
 
     <!-- ---------------------------------------------------------------------------- -->
     <!-- Footer info for all HTML -->
     <form class="row g-3 bottomBack">
         <div>
-        <p id="subscribe">Subscribe for update</p>
+            <p id="subscribe">Subscribe for update</p>
         </div>
-        <!-- <div class="col-auto centerText">
-        <label for="staticEmail2" class="visually-hidden">Email</label>
-        <input type="text" readonly class="form-control-plaintext" id="staticEmail2">
-        </div> -->
         <div class="col-auto centerText marSpa">
-        <!-- <label for="inputPassword2" class="visually-hidden">Email</label> -->
-        <input type="email" class="form-control" id="inputPassword2" placeholder="Enter Email">
+            <input type="email" class="form-control" id="inputPassword2" placeholder="Enter Email">
         </div>
         <div id="subscribe2" class="col-auto marSpa">
-        <button id="buttonColor" type="submit" class="btn btn-primary mb-3">Subscribe</button>
+            <button id="buttonColor" type="submit" class="btn  mb-3" style="color: #f4ccccea;">Subscribe</button>
         </div>
   </form>
 </body>

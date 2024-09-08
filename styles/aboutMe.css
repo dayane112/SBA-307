@@ -1,12 +1,5 @@
-html {
-    /* background-color: #f4ccccea; */
-
-    /* #efc1c1ff = the top |  #f4ccccea = background |  #c27ba0ff = the dark pink
-    #d5a6bdff = where to subscribe on the bottom*/
-}
-
 .topSection {
-    border: 1px solid;
+    border: 1px none;
     margin: 0%;
     padding: 0%;
     background-color: #f4ccccea;
@@ -17,7 +10,6 @@ html {
     display: flex;
     justify-content:center;
     align-items: center;
-    /* text-align: center; */
     padding-top: 7px;
     color: #c27ba0ff;
     transition-property: all;
@@ -30,12 +22,7 @@ html {
 }
 
 .navBar {
-    border: .1px solid;
-    /* border-radius: 25px; */
-    /* text-align: center; */
-    /* width: 75%; */
-    /* align-items: center; */
-    /* margin: 0% 10%; */
+    border: .1px none;
     display: flex;
     justify-content: space-around;
     padding: .6% 6% .6% 0%;
@@ -47,7 +34,7 @@ html {
     text-decoration: none;
 }
 
-
+/* __________Bottom of page____________ */
 #subscribe {
     text-align: center;
     font-weight: bold;
@@ -67,28 +54,41 @@ html {
 
 #subscribe2 {
     margin-left: 2%;
+    border: 1px none;
+    background-color: #c27ba0ff;
+    height: 40px;
 }
 
 .bottomBack {
-    border: 1px solid;
+    border: 1px none;
     width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
     background-color: #f4ccccea;
 }
 
+.buttonColor {
+    background-color: #f4ccccea;
+}
+
 /*  above needs to be in all css style sheet */
 /* ------------------------------------------------------------------------ */
 
-/* About me */
-#gifSize {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* margin-left: 35%;
-    margin-right: 35%; */
-    
 
+
+/* _________________Image corners______________ */
+img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+
+/* ______________________About me_________________________ */
+.gifAlignment {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
 .currentRead {

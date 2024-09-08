@@ -1,12 +1,5 @@
-html {
-    /* background-color: #f4ccccea; */
-
-    /* #efc1c1ff = the top |  #f4ccccea = background |  #c27ba0ff = the dark pink
-    #d5a6bdff = where to subscribe on the bottom*/
-}
-
 .topSection {
-    border: 1px solid;
+    border: 1px none;
     margin: 0%;
     padding: 0%;
     background-color: #f4ccccea;
@@ -17,7 +10,6 @@ html {
     display: flex;
     justify-content:center;
     align-items: center;
-    /* text-align: center; */
     padding-top: 7px;
     color: #c27ba0ff;
     transition-property: all;
@@ -30,12 +22,7 @@ html {
 }
 
 .navBar {
-    border: .1px solid;
-    /* border-radius: 25px; */
-    /* text-align: center; */
-    /* width: 75%; */
-    /* align-items: center; */
-    /* margin: 0% 10%; */
+    border: .1px none;
     display: flex;
     justify-content: space-around;
     padding: .6% 6% .6% 0%;
@@ -47,7 +34,7 @@ html {
     text-decoration: none;
 }
 
-
+/* __________Bottom of page____________ */
 #subscribe {
     text-align: center;
     font-weight: bold;
@@ -67,19 +54,35 @@ html {
 
 #subscribe2 {
     margin-left: 2%;
+    border: 1px none;
+    background-color: #c27ba0ff;
+    height: 40px;
 }
 
+
 .bottomBack {
-    border: 1px solid;
+    border: 1px none;
     width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
     background-color: #f4ccccea;
 }
+
+.buttonColor {
+    background-color: #f4ccccea;
+}
+
 /*  above needs to be in all css style sheet */
 /* ------------------------------------------------------------------------ */
 
-/* center text */
+/* _________________Image corners______________ */
+img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+
+/* ____________________________center texts____________________ */
 .currentRead {
     text-align: center;
     padding-top: 40px;
@@ -87,8 +90,7 @@ html {
 }
 
 .textStyle {
-    /* font-family: Arial; */
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 #buttonColor {
@@ -101,79 +103,40 @@ html {
 
 /* ------------------------------------------------------------------------ */
 
-/* currently reading info */
+/* _________________currently reading info_____________________________ */
 .table1 {
-    border: .1px solid;
+    border: .1px none;
     margin: 10% 10% 0% 10%;
 }
 
 #indexImg {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     padding: 0px 15px 0px 0px;
-    /* width: 25%; */
-
 }
 
-#indexPara {
-    /* display: flex;
-    flex-wrap: wrap;
-    width: 70%; */
+#indexImg img:hover {
+    zoom: 2;
 }
-
-/* #textBox1 {
-    border: 1px solid;
-}
-
-#textBox2 {
-    border: 1px solid;
-}
-.container1 {
-    overflow-x: hidden;
-}
-
-.readMore {
-    height: 120px;
-    overflow: hidden;
-    position: relative;
-}
-
-button {
-    position: absolute;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
-    border: none;
-    background-color: transparent;
-    font-weight: bolder;
-}
-
-button::after {
-    position: absolute;
-    content: "";
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
-    height: 80px;
-    background: linear-gradient(180deg #ffffffa1, #fff, #fff);
-} */
 
 /* ------------------------------------------------------------------------ */
 
-/* carousel */
+/* ________________________carousel________________________ */
 .size {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 30%;
     margin-left: 35%;
 }
-
-/* $carousel-control-icon-width: 2rem; */
 /* ------------------------------------------------------------------------ */
 
-/* Goodread review */
+/* _________________________Goodread review__________________ */
 #goodRead {
-    border: 1px solid;
+    margin: 0% 10% 0% 10%;
+}
+
+#goodRead2 {
     margin: 0% 10% 10% 10%;
-    padding-top: 20px;
+}
+
+.reviewTitle {
+color: #f4ccccea;
 }
